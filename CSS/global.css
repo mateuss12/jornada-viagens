@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Montserrat";
-  src: url(../fontes/Montserrat-VariableFont_wght.ttf);
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
   font-style: normal;
   font-display: swap;
 }
@@ -48,7 +48,8 @@ section {
   margin: 0 auto 88px;
 }
 
-section.hero {
+section.hero,
+section.bottom-hero {
   width: 100%;
   margin: 0;
 }
@@ -70,13 +71,12 @@ section.hero {
   margin: 16px auto 32px;
 }
 
-.content-title{
+.content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
   margin: 0 0 24px;
 }
-
-.content-text{
+.content-text {
   font-size: 20px;
   font-weight: var(--text-weight);
   line-height: 32px;
